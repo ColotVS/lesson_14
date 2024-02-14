@@ -22,6 +22,7 @@ public class lesson_14_13 {
         list2.add("20");
         list2.add("30");
 
+        System.out.println("Выводим первоначальные данные:");
         for(String str:list) {System.out.print(str+" ");}
         System.out.println();
         for(String str:list2) {System.out.print(str+" ");}
@@ -31,6 +32,7 @@ public class lesson_14_13 {
         addAll(list,"4","5");
         addAll(list2,"40","50");
 
+        System.out.println("Делаем addAll:");
         for(String str:list) {System.out.print(str+" ");}
         System.out.println();
         for(String str:list2) {System.out.print(str+" ");}
@@ -40,6 +42,7 @@ public class lesson_14_13 {
         replaceAll(list,"1","6");
         replaceAll(list2,"10","60");
 
+        System.out.println("Делаем replaceAll:");
         for(String str:list) {System.out.print(str+" ");}
         System.out.println();
         for(String str:list2) {System.out.print(str+" ");}
@@ -48,6 +51,7 @@ public class lesson_14_13 {
 
         copy(list,list2);
 
+        System.out.println("Делаем copy:");
         for(String str:list) {System.out.print(str+" ");}
         System.out.println();
         for(String str:list2) {System.out.print(str+" ");}

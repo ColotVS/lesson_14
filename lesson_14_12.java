@@ -2,6 +2,7 @@ public class lesson_14_12 {
     //Методы класса Collections
 
     //Создание и изменение коллекций
+
     //Метод Collections.addAll(Collection<T> colls, T e1, T e2, T e3, ...)
     //Метод addAll() добавляет в коллекцию colls элементы e1, e2, e3, ... Количество переданных элементов может быть любым.
 
